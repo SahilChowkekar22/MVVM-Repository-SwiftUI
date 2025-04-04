@@ -1,7 +1,30 @@
-# 🚀 SwiftUIRepository
+# 🚀 MVVM-Repository-SwiftUI
 
 A modular SwiftUI-based iOS app leveraging **MVVM**, **Repository Pattern**, and **Test-Driven Development**.
 This project is built to show clean architecture, reusable components, Combine-powered reactivity, and fully mocked test coverage.
+
+## 🧠 What Is This Project?
+
+**SwiftUIRepository** is a SwiftUI application that demonstrates:
+
+- How to **structure a scalable iOS codebase** using MVVM + Repository
+- How to **fetch and decode JSON data** from an API or mock files
+- How to **test networking, repositories, and view models**
+- How to **mock services and responses** using dependency injection
+- How to **organize a real-world SwiftUI app** for long-term growth
+
+The app loads Pokémon data from either a mock file or a real API and displays it in a SwiftUI view.
+
+---
+
+## 🌐 API Used
+
+This app is designed to work with any Pokémon-style REST API. You can either:
+- Use mock JSON test files like `ValidPokemon.json`
+- Or plug in a real endpoint like:
+  - [https://pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon)
+
+To hook into a real API, just update your `NetworkManager` and point it to the live endpoint.
 
 ---
 
