@@ -1,11 +1,3 @@
-//
-//  README.md
-//  SwiftUIRepository
-//
-//  Created by Sahil ChowKekar on 4/4/25.
-//
-
-
 # 🚀 SwiftUIRepository
 
 A modular SwiftUI-based iOS app leveraging **MVVM**, **Repository Pattern**, and **Test-Driven Development**.
